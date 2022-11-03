@@ -6,17 +6,16 @@ ${({ theme }) => css`
         height: 100%;
 
         body {
+            background-image: ${theme.colors.background};
             display: flex;
             flex-direction: column;
             height: 100%;
             margin: 0;
             
             #root {
-                background-image: ${theme.colors.background};
                 color: ${theme.colors.black};
                 display: flex;
                 font-family: sans-serif;
-                height: 100%;
                 justify-content: center;
                 padding: 15px;
             }
