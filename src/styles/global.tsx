@@ -17,7 +17,9 @@ ${({ theme }) => css`
                 display: flex;
                 font-family: sans-serif;
                 justify-content: center;
+                align-items: center;
                 padding: 15px;
+                height: 100%;
             }
         }
     }`

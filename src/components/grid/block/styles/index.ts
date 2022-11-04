@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export const Container = styled.div`
+export const BlockContainer = styled.div`
   ${({ theme }) => css`
     align-items: center;
     background-color: ${theme.colors.white};
