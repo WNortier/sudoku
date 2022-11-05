@@ -1,10 +1,15 @@
 import React, { FC, Children } from 'react'
+import { GRID } from 'typings'
+import { createGrid } from 'utils'
 
 import Block from './block'
 import { Container, Row } from './styles'
 
+
 const Grid: FC = () => {
   // Other stuff on the way
+
+  const grid = createGrid()
 
   return (
     <Container data-cy="grid-container">
